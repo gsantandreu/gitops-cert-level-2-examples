@@ -15,6 +15,7 @@ spec:
                 - path: application-sets/example-apps/*
           # cluster generator, 'child' #2
           - clusters:
+              project: default
 
   template:
     metadata:
